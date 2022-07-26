@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Studentinfo {
 	public static void main(String[] args) {  //프로그램의 시작과 끝
 		Scanner sc = new Scanner(System.in);
-		System.out.print("오늘 날짜는 ? : ");
-		String today =  sc.nextLine();
 		
 		System.out.print("학생이름 :  ");
 		String name  = sc.nextLine();
@@ -17,7 +15,6 @@ public class Studentinfo {
 		String address = sc.nextLine();
 		
 		
-		System.out.println("날짜: "+today);
 		System.out.println("이름: "+name);
 		System.out.println("학번: "+hakbun);
 		System.out.println("주소: "+address);
