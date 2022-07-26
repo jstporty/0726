@@ -8,14 +8,14 @@ public class StudentInfo2 {
 		chulsu.eng = 100;
 		chulsu.mat = 85;
 		int total = chulsu.kor + chulsu.eng + chulsu.mat;
-		double avg= total/3.;
-		System.out.printf("총점: %d\n",total);
-		System.out.println("평균:" + avg);
-		
+		double avg = total / 3.;
+		System.out.printf("총점 : %d\n", total);
+		System.out.println("평균 : " + avg);
 	}
 }
-	class Student { // 객체의 설계도
-	String name; // 멤버 or Field
+
+class Student{      //객체의 설계도
+	String name;     //멤버, Field
 	String hakbun;
 	int kor;
 	int eng;
